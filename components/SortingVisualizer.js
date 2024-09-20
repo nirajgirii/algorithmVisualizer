@@ -14,7 +14,7 @@ const SortingVisualizer = () => {
   }, []);
 
   const resetArray = () => {
-    const newArray = Array.from({ length: 100 }, () =>
+    const newArray = Array.from({ length: 10 }, () =>
       randomIntervalGenerator(5, 750)
     );
     setArray(newArray);

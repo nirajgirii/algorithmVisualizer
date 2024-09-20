@@ -1,3 +1,5 @@
+import Inventory from "@/components/Inventory";
+import InventoryForecast from "@/components/InventoryForecast";
 import SortingVisualizer from "@/components/SortingVisualizer";
 
 export default function Home() {
@@ -5,6 +7,8 @@ export default function Home() {
     <>
       <div>
         <SortingVisualizer />
+        {/* <InventoryForecast /> */}
+        {/* <Inventory /> */}
       </div>
     </>
   );
